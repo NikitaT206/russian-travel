@@ -2,3 +2,21 @@
   width: 92.5%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90.63%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 90%;
+  }
+}
