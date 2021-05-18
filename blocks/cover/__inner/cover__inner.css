@@ -1,8 +1,8 @@
 .cover__inner {
   width: 100%;
   max-width: 1184px;
+  display: grid;
   margin: 0 auto;
-  position: relative;
 }
 
 .cover__inner:hover .cover__image {
