@@ -1,4 +1,5 @@
 @import url(./vendor/normalize.css);
+@import url(./fonts/font.css);
 @import url(./blocks/page/page.css);
 @import url(./blocks/content/content.css);
 @import url(./blocks/link-opacity/link-opacity.css);
@@ -21,6 +22,7 @@
 @import url(./blocks/intro/__text/intro__text.css);
 @import url(./blocks/intro/__list/intro__list.css);
 @import url(./blocks/intro/__list-item/intro__list-item.css);
+@import url(./blocks/span-accent/span-accent.css);
 @import url(./blocks/photo-grid/photo-grid.css);
 @import url(./blocks/photo-grid/__inner/photo-grid__inner.css);
 @import url(./blocks/photo-grid/__item/photo-grid__item.css);
@@ -48,21 +50,6 @@
 
 
 
-@font-face { 
-  font-family: 'inter';
-  src: 
-    url(./fonts/regular/Inter-Regular.woff2) format("woff2"),
-    url(./fonts/regular/Inter-Regular.woff) format("woff"); 
-  font-weight: 400;
-}
-
-@font-face { 
-  font-family: 'inter';
-  src: 
-    url(./fonts/black/Inter-Black.woff2) format("woff2"),
-    url(./fonts/black/Inter-Black.woff) format("woff"); 
-  font-weight: 900;
-}
 
 
 
