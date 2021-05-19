@@ -5,11 +5,16 @@
   object-position: center;
 }
 
-@media screen and (max-width: 620px) {
+/* @media screen and (max-width: 620px) { 
   .place__image {
     width: 100vw;
     position: relative;
     margin-left: -50vw;
     left: 50%;
   }
-}
+} 
+
+Не совсем понимаю почему это плохой вариант?
+В итоге, вместо 4 строк кода я написал 50 лишних. Или это можно сделать проще?
+
+*/            

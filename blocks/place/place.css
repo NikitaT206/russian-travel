@@ -3,26 +3,29 @@
   grid-template-columns: minmax(min-content, 460px) 1fr;
   grid-template-rows: max-content 1fr;
   gap: 48px 40px;
+  max-width: 76.88%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(min-content, 440px) 1fr;
-    grid-template-rows: max-content 1fr;
     gap: 48px 32px;
+    max-width: 90.63%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: minmax(min-content, 340px) 1fr;
-    grid-template-rows: max-content 1fr;
     gap: 48px 28px;
+    max-width: 93.75%;
   }
 }
 
 @media screen and (max-width: 620px) {
   .place {
+    max-width: 100%;
     grid-template-columns: auto;
     grid-template-rows: auto;
     gap: 32px;
